@@ -8,6 +8,7 @@ Array.from(buttons).forEach((button)=> {/* so you got multiple buttons because o
         }
         else if(e.target.innerHTML=='C'){
             document.querySelector('input').value='';
+            string='';
         }
         else{
         console.log(e.target); 
